@@ -1,0 +1,215 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	box-sizing: border-box;
+    font-family: "Lora", serif;
+
+}
+
+ol, ul {
+	list-style: none;
+}
+
+nav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .wrapper  ul{
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+     }
+    
+    nav .wrapper  ul li {
+     margin-right: 40px;
+    }
+    
+    nav .wrapper  ul li a {
+         font-size: 18px;
+         font-weight: 700;
+         color: black;
+    }
+    nav .wrapper  ul li a:hover{
+        color:white;
+        background-color: orange;
+        padding: 10px;
+        border-radius: 18px;
+
+    }
+    #home .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+   #home .wrapper .left{
+    width: 48%;
+    margin-top: 150px;
+    margin-left: 150px;
+   }
+   #home .wrapper .right{
+    width: 48%;
+   }
+   #home .wrapper .right  #img1{
+   position: relative;
+   left: 90px;
+   z-index: 1;
+}
+   #home .wrapper .right  #img2{
+    position: relative;
+    bottom: 20px;
+    right: 220px;
+}
+
+ #home .wrapper .left h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    #home .wrapper .left p{
+        margin-top: 10px;
+        font-weight: 600;
+    }
+    #home .wrapper .left a{
+        background-color: black;
+        color: white;
+        padding: 12px 24px;
+        border-radius: 8px;
+        position: relative;
+        top: 35px;
+     }
+    #home .wrapper .right{
+        display:flex;
+        
+    }
+    .wrapper2 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .wrapper2_wrapper{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .wrapper2_wrapper .left2 img{
+        position: relative;
+        left: 40px;
+        top: 30px;
+
+    }
+    
+    .wrapper2_wrapper .right2{
+        width: 40%;
+        margin-top: 80px;
+        margin-right: 25px;
+    }
+    .information{
+        margin-top: 10px;
+    }
+    .info_box{
+        padding: 10px;
+    }
+     .wrapper3 {
+        text-align: center;
+        margin-left: 40px;
+        
+    }
+     .wrapper3_wrapper .right img{
+        position: relative;
+        left: 320px;
+        bottom: 150px;
+    }
+    .wrapper3_wrapper .left {
+        position: relative;
+        top: 120px;
+        left: 60px;
+    }
+    .wrapper3_wrapper .left .lists{
+        display: flex;
+    }
+    .wrapper3_wrapper .left .lists li{
+        margin-left: 200px;
+        margin-top: 30px;
+        font-weight: 600;
+    }
+    .wrapper3_wrapper .left .box1{
+        height: 5px;
+        width: 500px;
+        background-color: black;
+    }
+    .wrapper3_wrapper .left .box2{
+        height: 5px;
+        width: 485px;
+        background-color:orange;
+
+      }
+    .wrapper3_wrapper .left .box3{
+        height: 5px;
+        width: 500px;
+        background-color: black;
+    }
+      .wrapper3_wrapper .left .box4{
+        height: 5px;
+        width: 470px;
+        background-color:orange;
+
+    }
+    .wrapper3_wrapper .left .box5{
+        height: 5px;
+        width: 500px;
+        background-color: black;
+    }
+      .wrapper3_wrapper .left .box6{
+        height: 5px;
+        width: 460px;
+        background-color:orange;
+
+      }
+      .wrapper3_wrapper .left .box7{
+        height: 5px;
+        width: 500px;
+        background-color: black;
+    }
+      .wrapper3_wrapper .left .box8{
+        height: 5px;
+        width: 450px;
+        background-color:orange;
+    }
+      .wrapper4{
+        text-align: center;
+        position: relative;
+        bottom: 150px;
+    }
+    .socials{
+        margin-top: 40px;
+        font-size: 25px;
+    }
+    .socials a i{
+        color: black;
+        padding: 25px;
+        font-weight: 500;
+    }
+    
+    .footer p{
+        margin-top: 40px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .up_arrow{
+        float: right;
+        margin-right: 40px;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+
+    
+
+
+    
+    
+    
